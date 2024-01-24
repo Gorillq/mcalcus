@@ -3,4 +3,13 @@ project(mcalc)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(mcalc main.cpp)
+add_compile_options(-D_GLIBCXX_DEBUG -fsanitize=address,undefined)
+add_link_options(-fsanitize=address,undefined)
+
+
+add_executable(mcalc main.cpp
+        Matrix.cpp
+        Matrix.h
+        vectormat.h
+        vectormat.cpp
+)
