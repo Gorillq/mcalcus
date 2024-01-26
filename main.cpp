@@ -15,11 +15,8 @@ int main(int argc, char* argv[]) {
     object.input_vector(object.v);
     std::cout << "matrix 2: " << std::endl;
     object.input_vector(object.w);
-<<<<<<< HEAD
     std::cout << "1.Add" << std::endl << "2.Subtract" << std::endl;
-=======
     std::cout << "1.Add" << std::endl << "2.Subtract" << std::endl << "Mnozenie" << std::endl;
->>>>>>> ef75833 (:ambulance: Critical hotfix.)
     std::cin >> x;
     switch (x) {
         default:
