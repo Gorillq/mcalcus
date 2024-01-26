@@ -2,12 +2,12 @@
 // Created by kamilk on 23.01.24.
 //
 
-#ifndef MCALC_MATRIX_H
-#define MCALC_MATRIX_H
+#ifndef MCALCUS_MATRIX_H
+#define MCALCUS_MATRIX_H
 
 #include <vector>
 
-class Matrix {
+class matrix {
 public:
     int msize;
     std::vector<std::vector<int>> v;
@@ -20,4 +20,4 @@ private:
     int element;
 };
 
-#endif //MCALC_MATRIX_H
+#endif //MCALCUS_MATRIX_H

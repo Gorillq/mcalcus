@@ -2,21 +2,21 @@
 // Created by kamilk on 23.01.24.
 //
 
-#include "Matrix.h"
+#include "matrix.h"
 #include <iostream>
 #include <vector>
 
 
-void Matrix::input_vector(std::vector<std::vector<int>>& v) {
+void matrix::input_vector(std::vector<std::vector<int>>& v) {
     for (int i = 0; i < v.size(); i++) {
         for (int j = 0; j < v.size(); j++) {
             std::cout << "Element: " << i << j << std::endl;
-            std::cin >> Matrix::element;
-            v[i][j] = Matrix::element;
+            std::cin >> matrix::element;
+            v[i][j] = matrix::element;
         }
     }
 }
-void Matrix::print_vector(const std::vector<std::vector<int>>& v) {
+void matrix::print_vector(const std::vector<std::vector<int>>& v) {
     for (int i = 0; i < v.size(); i++) {
         for (int j = 0; j < v.size(); j++) {
             std::cout << v[i][j] << " ";
@@ -24,7 +24,7 @@ void Matrix::print_vector(const std::vector<std::vector<int>>& v) {
         std::cout << std::endl;
     }
 }
-void Matrix::resizer(std::vector<std::vector<int>>& v, int& msize) {
+void matrix::resizer(std::vector<std::vector<int>>& v, int& msize) {
     v.resize(msize);
     for (auto & i : v) {
         i.resize(msize);

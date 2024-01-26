@@ -28,3 +28,11 @@
             }
         }
     }
+   /* int Vectormat::iloraz(std::vector<std::vector<int>> &v, std::vector<std::vector<int>> &w,
+                           std::vector<std::vector<int>> &b) {
+        for (int i = 0; i < v.size(); ++i) {
+            for (int j = 0;j < v.size(); ++j) {
+               return 1;
+            }
+        }
+    }*/
