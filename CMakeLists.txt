@@ -8,8 +8,8 @@ add_link_options(-fsanitize=address,undefined)
 
 
 add_executable(mcalcus main.cpp
-        Matrix.cpp
-        Matrix.h
+        matrix.cpp
+        matrix.h
         vectormat.h
         vectormat.cpp
 )
