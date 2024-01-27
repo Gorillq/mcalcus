@@ -1,9 +1,7 @@
 # mcalcus
-Matrix Equations C++
-# mcalcus
 <div align='center'>
 
-<h1>Easy scp transfer</h1>
+<h1>Matrix Calculator</h1>
 <p>Square Matrix Equations C++</p>
 
 <h4> <span> · </span> <a href="https://github.com/Gorillq/mcalcus/blob/master/README.md"> Documentation </a> <span> · </span> <a href="https://github.com/Gorillq/mcalcus/issues"> Report Bug </a> <span> · </span> <a href="https://github.com/Gorillq/mcalcus/issues"> Request Feature </a> </h4>
