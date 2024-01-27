@@ -27,7 +27,7 @@ int main(int argc, char* argv[]) {
     object.input_vector(object.v);
     std::cout << "matrix 2: " << std::endl;
     object.input_vector(object.w);
-    std::cout << "1.Add" << std::endl << "2.Subtract" << std::endl << "3.Mnozenie" << std::endl;
+    std::cout << "1.Add" << std::endl << "2.Subtract" << std::endl << "3.Multiplication" << std::endl;
     std::cin >> x;
     switch (x) {
         default:
